@@ -12,12 +12,17 @@
 </head>
 <body>
 
-  <div class="masthead">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
     <div class="nav">
-      <div class="wrapper gutter-1-2">
+      <nav class="wrapper gutter-1-2" role="navigation" id="nav" tabindex="0">
         <ol class="mega list-group-inline push-0">
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
@@ -25,12 +30,14 @@
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
         </ol>
-      </div>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <div>
-    <div class="about push" id="about">
+  <main role="main" id="main" tabindex="0">
+
+
+    <section class="about push" id="about" tabindex="0">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrbs.jpg" alt="">
       </div>
@@ -41,10 +48,10 @@
           <p class="mega push-0 max-length not-centered">Yes, shrubberies are my trade—I am a shrubber. My name is Roger the Shrubber. I arrange, design, and sell shrubberies.</p>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div>
+
+  <section class="pad-b" id="shrubs" tabindex="0">
     <div class="wrapper gutter-1-2">
       <h2 class="push-0 color-brand-dark">Products</h2>
       <p class="mega max-length not-centered">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
@@ -53,26 +60,26 @@
           <img class="img-flex push" src="images/shrub-1.jpg" alt="#">
           <div class="gutter-1-4" id="grassy-shrubs">
             <h3 class="mega push-0">Grassy shrubs</h3>
-            <span>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
+            <p>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</p>
           </div>
         </li>
         <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
           <img class="img-flex push" src="images/shrub-2.jpg" alt="#">
           <div class="gutter-1-4" id="shrubs-with-laurels">
             <h3 class="mega push-0">Shrubs with laurels</h3>
-            <span>Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</span>
+            <p>Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</p>
           </div>
         </li>
         <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
           <img class="img-flex push" src="images/shrub-3.jpg" alt="#">
           <div class="gutter-1-4" id="two-level-shrub">
             <h3 class="mega push-0">Two-level shrubbery</h3>
-            <span>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
+            <p>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</p>
           </div>
         </li>
       </ul>
     </div>
-  </div>
+  </section>
 
   <div class="prices pad-t pad-b">
     <div class="wrapper gutter-1-2">
