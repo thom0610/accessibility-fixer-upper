@@ -81,41 +81,46 @@
     </div>
   </section>
 
-  <div class="prices pad-t pad-b">
+  <section class="prices pad-t pad-b" id="prices" tabindex="0">
     <div class="wrapper gutter-1-2">
       <h2 class="push-0 color-brand-dark">Prices</h2>
-      <span class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
+      <p class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</p>
 
       <table>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Small</td>
-          <td>Medium</td>
-          <td>Large</td>
-        </tr>
-        <tr>
-          <td>Grassy shrubs</td>
-          <td>$10</td>
-          <td>$20</td>
-          <td>$30</td>
-        </tr>
-        <tr>
-          <td>Shrubs with laurels</td>
-          <td>$40</td>
-          <td>$70</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>Two-level shrubbery</td>
-          <td>$50</td>
-          <td>$70</td>
-          <td>$90</td>
-        </tr>
+        <caption>Prices for small, mediumm and large shruberies</caption>
+        <thead>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Small</td>
+            <td>Medium</td>
+            <td>Large</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Grassy shrubs</td>
+            <td>$10</td>
+            <td>$20</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>Shrubs with laurels</td>
+            <td>$40</td>
+            <td>$70</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>Two-level shrubbery</td>
+            <td>$50</td>
+            <td>$70</td>
+            <td>$90</td>
+          </tr>
+        </tbody>
       </table>
     </div>
-  </div>
+  </section>
 
-  <div class="news pad-t pad-b">
+  <section class="news pad-t pad-b">
     <div class="wrapper gutter-1-2">
       <h2 class="push-0 color-brand-dark">News</h2>
       <p class="mega max-length not-centered">Then, when you have found the shrubbery, you must cut down the mightiest tree in the forest… with… a herring!</p>
@@ -135,17 +140,17 @@
         </li>
       </ol>
     </div>
-  </div>
+  </section>
 
-  <div class="contact pad-t pad-b">
+  <section class="contact pad-t pad-b">
     <div class="wrapper">
-      <h3 class="push-0 color-brand-dark gutter-1-2">Contact</h3>
+      <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
       <p class="mega max-length not-centered gutter-1-2">We want… a shrubbery!</p>
 
       <form class="grid" method="post" action="#">
         <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-          <span class="push-1-8">Your name</span>
-          <input>
+          <label class="push-1-8">Your name</label>
+          <input id="yourname" required>
         </div>
         <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
           <span class="push-1-8">E-mail address</span>
