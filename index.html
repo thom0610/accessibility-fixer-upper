@@ -17,7 +17,7 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header role="banner">
+  <header role="banner" class="masthead">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
@@ -38,7 +38,7 @@
 
     <section class="about push" id="about" tabindex="0">
       <div class="embed embed-24by10">
-        <img class="embed-item" src="images/shurbs.jpg" alt="">
+        <img class="embed-item" src="images/shrubs.jpg" alt="">
       </div>
       <div class="about-content pad-t-2 pad-b-2">
         <div class="wrapper gutter-1-2">
@@ -69,8 +69,8 @@
             </div>
           </li>
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex push" src="images/shrub-3.jpg" aria-details="#two-level-shrub" alt="">
-            <div class="gutter-1-4" id="two-level-shrub">
+            <img class="img-flex push-1-2" src="images/shrub-3.jpg" aria-details="#two-level-shrub" alt="">
+            <div class="gutter-1-4 push" id="two-level-shrub">
               <h3 class="mega push-0">Two-level shrubbery</h3>
               <p>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</p>
             </div>
@@ -118,7 +118,7 @@
       </div>
     </section>
 
-    <section class="news pad-t pad-b">
+    <section id="news" class="news pad-t pad-b">
       <div class="wrapper gutter-1-2">
         <h2 class="push-0 color-brand-dark">News</h2>
         <p class="mega max-length not-centered">Then, when you have found the shrubbery, you must cut down the mightiest tree in the forest… with… a herring!</p>
@@ -126,15 +126,15 @@
         <ol class="list-group">
           <li class="push">
             <h3 class="push-0"><a href="#">What makes a good shrubbery?</a></h3>
-            <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood.<a class="dark" href="#" aria-label="Read more about what make a good shrubbery">Read&nbsp;more…</a></p>
+            <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood.<a class="dark" href="#readmoreinfo" aria-label="Read more about what make a good shrubbery">Read&nbsp;more…</a></p>
           </li>
           <li class="push">
             <h3 class="push-0"><a href="#">Shrubbery recycling</a></h3>
-            <p class="push-0">I will come pick up your shrub and recycle it. Though why you’d want to get rid of a shrubbery I do not know. <a class="dark" href="#" aria-label="Read more about shrubbery recycling">Read&nbsp;more…</a></p>
+            <p class="push-0">I will come pick up your shrub and recycle it. Though why you’d want to get rid of a shrubbery I do not know. <a class="dark" href="#readmoreinfo" aria-label="Read more about shrubbery recycling">Read&nbsp;more…</a></p>
           </li>
           <li class="push">
             <h3 class="push-0"><a href="#">Greens of any kind!</a></h3>
-            <p class="push-0">I now sell and plant more than just shrubs! Greens of any kind: lettuce, kale, onions, grasses, trees, etc. <a class="dark" href="#" aria-label="Read more about greens of any kind">Read&nbsp;more…</a></p>
+            <p class="push-0">I now sell and plant more than just shrubs! Greens of any kind: lettuce, kale, onions, grasses, trees, etc. <a class="dark" href="#readmoreinfo" aria-label="Read more about greens of any kind">Read&nbsp;more…</a></p>
           </li>
         </ol>
       </div>
@@ -147,16 +147,16 @@
 
         <form class="grid" method="post" action="#">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label class="push-1-8">Your name</label>
-            <input id="yourname" required>
+            <label for="yourname" class="push-1-8">Your name</label>
+            <input type="text" id="yourname" required>
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label class="push-1-8">E-mail address</label>
+            <label for="email" class="push-1-8">E-mail address</label>
             <input type="email" id="email">
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label class="push-1-8">Type of shrubbery</label>
-            <select id="type" name="type">
+            <label for="options" class="push-1-8">Type of shrubbery</label>
+            <select id="options" name="type">
               <option>Two-level shrubbery</option>
               <option>Small shrubbery</option>
               <option>Shrubbery with laurels</option>
